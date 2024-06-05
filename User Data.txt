@@ -1,9 +1,0 @@
-User Data:
-
-1. HTTPD
-#!/bin/bash
-sudo -i
-yum install httpd -y
-systemctl start httpd
-systemctl enable httpd
-echo "Hello This is HTTPD" > /var/www/html/index.html
