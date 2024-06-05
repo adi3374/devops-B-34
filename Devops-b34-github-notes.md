@@ -1,8 +1,8 @@
-Configure Your Email and Name in GitBash with Commands
-
-$ git config --global user.email "email-id"
-$ git config --global user.name "name"
-
+### Configure Your Email and Name in GitBash with Commands
+```git
+git config --global user.email "email-id"
+git config --global user.name "name"
+```
 $ git init : To initialize our folder as git working directory
 
 $ git clone : To clone git repository to our machine from github.com 
