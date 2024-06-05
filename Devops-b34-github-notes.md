@@ -1,4 +1,4 @@
-
+:smiley:
 **Configure Your Email and Name in GitBash with Commands**
 ````
 git config --global user.email "email-id"
