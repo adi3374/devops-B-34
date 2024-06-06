@@ -32,6 +32,10 @@ git init
 git add <file-name>
 git add .
 ````
+**restore staged file**
+````
+git restore --staged  <filename>
+````
 **git commit : It is used to commit staged files to git local repository**
 
 ````
@@ -44,3 +48,27 @@ git commit -m 'reason for commit'
 ````
 git push
 ````
+**Branch: to check all branches**
+````
+git brach
+````
+**Create new branch and checkout**
+````
+git branch <branchname>
+git checkout <branchname>
+git checkout -b <branchname>
+````
+**delete branch**
+````
+git branch -d <branchname>
+````
+**pull remote repository to local**
+````
+git pull https://github.com/abhipraydhoble/Project-Student-App.git
+````
+**fetch remote repository to local**
+````
+git fetch https://github.com/abhipraydhoble/Project-Student-App.git
+````
+
+
