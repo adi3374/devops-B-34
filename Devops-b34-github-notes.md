@@ -50,7 +50,7 @@ git push
 ````
 **Branch: to check all branches**
 ````
-git brach
+git branch
 ````
 **Create new branch and checkout**
 ````
