@@ -27,10 +27,10 @@ We will create one aws profile to authenticate with terraform instead of adding 
 To create profile use following command
 #aws configure   --profile  tf-user
 Provide
-Secret key:
-Access key:
-Region:
-Format: json
+- Secret key:
+- Access key:
+- Region:
+- Format: json
 
 **AWS CLI Installation:**
 
