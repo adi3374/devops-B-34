@@ -4,6 +4,7 @@ Terraform is an infrastructure as code tool using which we can provision and man
 
 
 **Features:**
+
 ***1. Multi-Cloud Support:***
 - Terraform supports multiple cloud providers, including AWS, Azure, Google Cloud Platform, and many others.
 - This allows you to manage infrastructure across different cloud environments using a single tool.
