@@ -26,12 +26,6 @@ Download and Configure AWS CLI:
 We will create one aws profile to authenticate with terraform instead of adding secret and access keys directly.
 To create profile use following command
 
-### aws configure   --profile  tf-user
-Provide
-- Secret key:
-- Access key:
-- Region:
-- Format: json
 
 **AWS CLI Installation:**
 
@@ -47,11 +41,14 @@ sudo ./aws/install
 aws --version
 ````
 To create profile use following command
-#### aws configure   --profile  tf-user
-Access key:
-Secret key:
-Region:
-Format: json
+
+### aws configure   --profile  tf-user
+Provide
+- Secret key:
+- Access key:
+- Region:
+- Format: json
+
 
 
 **Terraform Installation:Ubuntu**
