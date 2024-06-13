@@ -22,6 +22,7 @@ Terraform is an infrastructure as code tool using which we can provision and man
 
 
 Download and Configure AWS CLI:
+
 We will create one aws profile to authenticate with terraform instead of adding secret and access keys directly.
 To create profile use following command
 #aws configure   --profile  tf-user
@@ -30,7 +31,9 @@ Secret key:
 Access key:
 Region:
 Format: json
+
 **AWS CLI Installation:**
+
 We will create one aws profile to authenticate with terraform instead of adding secret and access keys directly.
 
 ````
