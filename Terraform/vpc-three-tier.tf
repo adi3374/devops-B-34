@@ -76,6 +76,10 @@ resource "aws_nat_gateway" "nat-vpc-tf" {
   allocation_id = aws_eip.eip.id
   subnet_id = aws_subnet.public.id
 }
+resource "aws_route_table_association" "rt-public" {
+    subnet_id = aws_subnet.public.id
+    route_table_id = aws_route_table.RT-public.id
+}
 
 resource "aws_route_table_association" "rt-private" {
     subnet_id = aws_subnet.private-tom.id
@@ -171,7 +175,7 @@ resource "aws_db_subnet_group" "db-subnet" {
 
 resource "aws_db_instance" "rds" {
   allocated_storage = 20
-  db_name = "database1".
+  db_name = "database1"
   engine = "mariadb"
   engine_version = "10.11.6"
   username = "admin"
