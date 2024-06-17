@@ -25,6 +25,7 @@ resource "aws_subnet" "private-tom" {
     }
 }
 
+
 resource "aws_subnet" "private-db" {
     vpc_id = aws_vpc.vpc-demo.id
     cidr_block = "192.168.2.0/24"
