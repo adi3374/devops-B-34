@@ -1,5 +1,5 @@
 module "ec2" {
-  source  = "./module/ec2"
+  source  = "./ec2"
   ami_id = var.ami_id
   instance_type = var.instance_type
   key_name = var.key_name
@@ -7,7 +7,7 @@ module "ec2" {
   }
 
   module "vpc" {
-    source = "./module/vpc"
+    source = "./vpc"
     vpc_cidr_block = var.vpc_cidr_block
     vpc_name = var.vpc_name
     subnet_cidr_block = var.subnet_cidr_block
