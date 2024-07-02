@@ -33,7 +33,7 @@
 - whatever the software we required is install using docker
 - 
 ##  ${\color{lightblue} \textbf{ Que. \ What \ is \ Docker \?}}$
-** ${\color{lightblue}  \textbf{Docker}}$** is an open source platform for developing, shipping and running applications in containers
+${\color{lightblue}  \textbf{Docker}}$ is an open source platform for developing, shipping and running applications in containers
            containers are lightweight, isolated environments that package application and their dependencies together.
   
   **Benefits**
