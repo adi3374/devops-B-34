@@ -1,4 +1,5 @@
-# Docker
+#  $${\color{Blue} \textbf{Docker}}$$ 🐳
+
 ![image](https://github.com/abhipraydhoble/devops-B-34/assets/122669982/7fcb6dc3-dfcd-4a00-9349-91b16869bd39)
 
 **1. Developement Team:** Responsible for writing code
@@ -31,7 +32,7 @@
 - to avoid these kind of environmental issues we are using docker
 - whatever the software we required is install using docker
 - 
-Que. What is Docker?
+##  $${\color{Blue} \textbf{ Que. \ What \ is \ Docker \?}}$$
 **Docker** is an open source platform for developing, shipping and running applications in containers
            containers are lightweight, isolated environments that package application and their dependencies together.
   
@@ -42,7 +43,7 @@ Que. What is Docker?
   - resource efficiency
 
 
-  ## On-Premises vs. Virtual Machines (VMs)
+  ##  $${\color{Blue} \textbf{On-Premises \ vs. \ Virtual Machines \ (VMs)}}$$  
 
 | Feature                    | On-Premises                                      | Virtual Machines (VMs)                          |
 |----------------------------|--------------------------------------------------|-------------------------------------------------|
@@ -64,7 +65,7 @@ Que. What is Docker?
 
 
 
-## Virtual Machines (VMs) vs. Containers
+##  $${\color{Blue} \textbf{Virtual Machines (VMs) \ vs. \  Containers)}}$$  
 
 | Feature                   | Virtual Machines (VMs)                               | Containers                                     |
 |---------------------------|------------------------------------------------------|------------------------------------------------|
@@ -93,7 +94,7 @@ Que. What is Docker?
 ![docker architecture](https://github.com/abhipraydhoble/devops-B-34/assets/122669982/5f9d4992-8282-4bd5-8e3f-640e715c737c)
 
 
-## Installation
+##  $${\color{Blue} \textbf{Installation}}$$  
 
 ````
 sudo yum update -y
@@ -104,93 +105,4 @@ sudo usermod -a -G docker ec2-user
 ````
 docker --version
 ````
-
-# Virtual Machines (VMs) vs. Containers
-
-<table>
-  <thead>
-    <tr>
-      <th style="color:blue">Feature</th>
-      <th style="color:green">Virtual Machines (VMs)</th>
-      <th style="color:purple">Containers</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Architecture</td>
-      <td>Includes the entire OS, virtual hardware, and application</td>
-      <td>Shares the host OS kernel, includes only the application and its dependencies</td>
-    </tr>
-    <tr>
-      <td>Size</td>
-      <td>Typically large, includes full OS</td>
-      <td>Lightweight, usually in MBs</td>
-    </tr>
-    <tr>
-      <td>Startup Time</td>
-      <td>Slower, can take minutes</td>
-      <td>Fast, usually in seconds</td>
-    </tr>
-    <tr>
-      <td>Performance</td>
-      <td>Potential overhead due to full OS virtualization</td>
-      <td>Near-native performance, minimal overhead</td>
-    </tr>
-    <tr>
-      <td>Isolation</td>
-      <td>Strong isolation, each VM has its own OS</td>
-      <td>Process-level isolation, shares OS kernel</td>
-    </tr>
-    <tr>
-      <td>Resource Efficiency</td>
-      <td>Less efficient, more resources required per VM</td>
-      <td>Highly efficient, better resource utilization</td>
-    </tr>
-    <tr>
-      <td>Portability</td>
-      <td>Portable across different environments, but larger in size</td>
-      <td>Highly portable, easy to move and replicate</td>
-    </tr>
-    <tr>
-      <td>Management</td>
-      <td>Requires hypervisor (e.g., VMware, Hyper-V)</td>
-      <td>Requires container runtime (e.g., Docker)</td>
-    </tr>
-    <tr>
-      <td>Deployment Speed</td>
-      <td>Slower deployment due to full OS boot</td>
-      <td>Rapid deployment</td>
-    </tr>
-    <tr>
-      <td>Scalability</td>
-      <td>Scalable, but with more overhead and complexity</td>
-      <td>Highly scalable with orchestration tools (e.g., Kubernetes)</td>
-    </tr>
-    <tr>
-      <td>Security</td>
-      <td>Strong isolation with separate OS instances</td>
-      <td>Shared kernel can pose security risks, but improving</td>
-    </tr>
-    <tr>
-      <td>Use Cases</td>
-      <td>Running multiple OS environments, legacy application support</td>
-      <td>Microservices, agile development, continuous integration/continuous deployment (CI/CD)</td>
-    </tr>
-    <tr>
-      <td>Storage</td>
-      <td>Each VM has its own storage</td>
-      <td>Containers can share storage volumes</td>
-    </tr>
-    <tr>
-      <td>Networking</td>
-      <td>Requires network bridging or virtual networks</td>
-      <td>Lightweight network overlays, easier service discovery</td>
-    </tr>
-    <tr>
-      <td>Boot Time</td>
-      <td>Slower, similar to physical machines</td>
-      <td>Very fast, almost instant</td>
-    </tr>
-  </tbody>
-</table>
 
