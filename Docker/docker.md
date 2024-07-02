@@ -28,10 +28,10 @@
   
   **4. Prod** : Where the final product runs for end-users.
 
-- install dependencies and particular version of software is a very difficult task
-- to avoid these kind of environmental issues we are using docker
-- whatever the software we required is install using docker
-- 
+- Installation of dependencies and particular version of software is a very difficult task
+- To avoid these kind of environmental issues we are using docker
+- Whatever the softwares we required is install using docker
+  
 ##  ${\color{lightblue} \textbf{ Que. \ What \ is \ Docker \?}}$
 ${\color{lightblue}  \textbf{Docker}}$ is an open source platform for developing, shipping and running applications in containers
            containers are lightweight, isolated environments that package application and their dependencies together.
@@ -43,7 +43,7 @@ ${\color{lightblue}  \textbf{Docker}}$ is an open source platform for developing
   - resource efficiency
 
 
-  ##  $${\color{lightblue} \textbf{On-Premises \ vs. \ Virtual Machines \ (VMs)}}$$  
+  ##  ${\color{lightblue} \textbf{On-Premises \ vs. \ Virtual Machines \ (VMs)}}$ 
 
 | Feature                    | On-Premises                                      | Virtual Machines (VMs)                          |
 |----------------------------|--------------------------------------------------|-------------------------------------------------|
@@ -65,7 +65,7 @@ ${\color{lightblue}  \textbf{Docker}}$ is an open source platform for developing
 
 
 
-##  $${\color{lightblue} \textbf{Virtual Machines (VMs) \ vs. \  Containers)}}$$  
+##  ${\color{lightblue} \textbf{Virtual Machines (VMs) \ vs. \  Containers)}}$
 
 | Feature                   | Virtual Machines (VMs)                               | Containers                                     |
 |---------------------------|------------------------------------------------------|------------------------------------------------|
@@ -91,10 +91,14 @@ ${\color{lightblue}  \textbf{Docker}}$ is an open source platform for developing
 
 
 
+
+
 ![docker architecture](https://github.com/abhipraydhoble/devops-B-34/assets/122669982/5f9d4992-8282-4bd5-8e3f-640e715c737c)
 
 
-##  $${\color{lightblue} \textbf{Installation}}$$  
+
+
+##  ${\color{lightblue} \textbf{Installation-Steps  \ (Amazon-Linux)}}$ 
 
 ````
 sudo yum update -y
