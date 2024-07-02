@@ -38,13 +38,13 @@ ${\color{Red} \textbf{3. \ Operations \ Team:}}$ Responsible for providing infra
 
 - There are multliple environments present in a project such as
   
-  **1. Dev** : Where developers write and test code.
+  ${\color{Green} \textbf{1. Dev}}$ : Where developers write and test code.
   
-  **2. Test** : Where testers ensure the code works correctly
+  ${\color{Orange} \textbf{2. Test}}$ : Where testers ensure the code works correctly
   
-  **3. UAT (User Acceptance Testing)** : Where customer will test the product
+  ${\color{Yellow} \textbf{3. UAT (User Acceptance Testing)}}$ : Where customer will test the product
   
-  **4. Prod** : Where the final product runs for end-users.
+  ${\color{Red} \textbf{4. Prod}}$ : Where the final product runs for end-users.
 
 - Installation of dependencies and particular version of software is a very difficult task
 - To avoid these kind of environmental issues we are using docker
