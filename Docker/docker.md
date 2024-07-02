@@ -24,7 +24,7 @@ ${\color{Green} \textbf{1. \ Developement \ Team:}}$ Responsible for writing cod
 
 ${\color{Orange} \textbf{2. \ Testing \ Team:}}$ Responsible for Testing code
 
-${\color{Green} \textbf{3. \ Operations \ Team:}}$ Responsible for providing infrastructure setup
+${\color{Red} \textbf{3. \ Operations \ Team:}}$ Responsible for providing infrastructure setup
    
 - So all the code is stored or integrated inside github
 - We cant deliver code to client directly
