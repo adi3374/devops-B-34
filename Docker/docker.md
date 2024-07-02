@@ -1,3 +1,70 @@
+# Docker
+![image](https://github.com/abhipraydhoble/devops-B-34/assets/122669982/7fcb6dc3-dfcd-4a00-9349-91b16869bd39)
+
+**1. Developement Team:** Responsible for writing code
+**2. Testing/QA Team:** Responsible for Testing code
+**3. DevOps/Operations Team:** Responsible for providing infrastructure setup
+   
+- So all the code is stored or integrated inside github
+- we cant deliver code to client directly
+- we need to test this code
+- so developers will test the code on machine/server where we need to install dependencies like
+    - angular-frontend
+    - java -backend
+    - database server
+    - tomcat for app
+  so this set up we called as environment
+
+- there are multliple environments present in a project such as
+  
+  **1. Dev** : Where developers write and test code.
+  **2. Test** : Where testers ensure the code works correctly
+  **3. UAT (User Acceptance Testing)** : Where customer will test the product
+  **4. Prod** : Where the final product runs for end-users.
+
+  ## On-Premises vs. Virtual Machines (VMs)
+
+| Feature                    | On-Premises                                      | Virtual Machines (VMs)                          |
+|----------------------------|--------------------------------------------------|-------------------------------------------------|
+| **Infrastructure**         | Physical servers located on-site                | Virtualized servers hosted either locally or in the cloud |
+| **Initial Cost**           | High upfront investment in hardware             | Lower initial cost, pay-as-you-go model         |
+| **Maintenance**            | Requires in-house IT staff for maintenance      | Managed by cloud providers or minimal local maintenance |
+| **Scalability**            | Limited by physical hardware capacity           | Highly scalable, easy to add or remove resources |
+| **Deployment Time**        | Longer, due to hardware setup and configuration | Faster, almost instant deployment               |
+| **Control**                | Full control over hardware and software         | Control over virtual instances, less over physical hardware |
+| **Security**               | Physical security controlled by the organization| Security managed by provider, with shared responsibility model |
+| **Performance**            | High performance, no virtualization overhead    | Potential slight overhead due to virtualization |
+| **Disaster Recovery**      | Requires in-house backup solutions              | Often includes built-in backup and recovery options |
+| **Flexibility**            | Less flexible, tied to physical hardware        | More flexible, can easily reconfigure resources |
+| **Updates**                | Manual updates required                         | Automated updates and patches provided by provider |
+| **Energy Efficiency**      | Organization responsible for energy consumption | Energy efficiency managed by provider           |
+| **Location Dependency**    | Must be managed on-site                         | Accessible from anywhere with internet access   |
+
+
+
+## Virtual Machines (VMs) vs. Containers
+
+| Feature                   | Virtual Machines (VMs)                               | Containers                                     |
+|---------------------------|------------------------------------------------------|------------------------------------------------|
+| **Architecture**          | Includes the entire OS, virtual hardware, and application | Shares the host OS kernel, includes only the application and its dependencies |
+| **Size**                  | Typically large, includes full OS                   | Lightweight, usually in MBs                    |
+| **Startup Time**          | Slower, can take minutes                            | Fast, usually in seconds                       |
+| **Performance**           | Potential overhead due to full OS virtualization    | Near-native performance, minimal overhead      |
+| **Isolation**             | Strong isolation, each VM has its own OS            | Process-level isolation, shares OS kernel      |
+| **Resource Efficiency**   | Less efficient, more resources required per VM      | Highly efficient, better resource utilization  |
+| **Portability**           | Portable across different environments, but larger in size | Highly portable, easy to move and replicate   |
+| **Management**            | Requires hypervisor (e.g., VMware, Hyper-V)         | Requires container runtime (e.g., Docker)      |
+| **Deployment Speed**      | Slower deployment due to full OS boot               | Rapid deployment                               |
+| **Scalability**           | Scalable, but with more overhead and complexity     | Highly scalable with orchestration tools (e.g., Kubernetes) |
+| **Security**              | Strong isolation with separate OS instances         | Shared kernel can pose security risks, but improving |
+| **Use Cases**             | Running multiple OS environments, legacy application support | Microservices, agile development, continuous integration/continuous deployment (CI/CD) |
+| **Storage**               | Each VM has its own storage                         | Containers can share storage volumes           |
+| **Networking**            | Requires network bridging or virtual netwo
+
+
+
+
+
 ![docker architecture](https://github.com/abhipraydhoble/devops-B-34/assets/122669982/5f9d4992-8282-4bd5-8e3f-640e715c737c)
 
 
