@@ -9,16 +9,16 @@
 **3. DevOps/Operations Team:** Responsible for providing infrastructure setup
    
 - So all the code is stored or integrated inside github
-- we cant deliver code to client directly
-- we need to test this code
-- so developers will test the code on machine/server where we need to install dependencies like
+- We cant deliver code to client directly
+  Wwe need to test this code
+- So developers will test the code on machine/server where we need to install dependencies like
     - angular-frontend
     - java -backend
     - database server
     - tomcat for app
   so this set up we called as environment
 
-- there are multliple environments present in a project such as
+- There are multliple environments present in a project such as
   
   **1. Dev** : Where developers write and test code.
   
@@ -88,7 +88,7 @@ ${\color{lightblue}  \textbf{Docker}}$ is an open source platform for developing
 
 
 
-
+##  ${\color{lightblue} \textbf{docker \ architecture}}$ 
 
 
 
