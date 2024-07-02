@@ -2,7 +2,9 @@
 ![image](https://github.com/abhipraydhoble/devops-B-34/assets/122669982/7fcb6dc3-dfcd-4a00-9349-91b16869bd39)
 
 **1. Developement Team:** Responsible for writing code
+
 **2. Testing/QA Team:** Responsible for Testing code
+
 **3. DevOps/Operations Team:** Responsible for providing infrastructure setup
    
 - So all the code is stored or integrated inside github
@@ -18,8 +20,11 @@
 - there are multliple environments present in a project such as
   
   **1. Dev** : Where developers write and test code.
+  
   **2. Test** : Where testers ensure the code works correctly
+  
   **3. UAT (User Acceptance Testing)** : Where customer will test the product
+  
   **4. Prod** : Where the final product runs for end-users.
 
   ## On-Premises vs. Virtual Machines (VMs)
