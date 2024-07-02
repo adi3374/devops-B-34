@@ -1,6 +1,24 @@
 #  $${\color{lightlightblue} \textbf{Docker 🐳}}$$
 
+
+##  ${\color{lightblue} \textbf{ Monolithic \ vs \ Microservises}$
+
+| **Aspect**                  | **Monolithic Architecture**                             | **Microservices Architecture**                          |
+|-----------------------------|---------------------------------------------------------|----------------------------------------------------------|
+| **Definition**              | Entire app as one unit, tightly integrated              | Split into smaller, loosely coupled services             |
+| **Integration**             | Components tightly coupled                              | Services loosely coupled                                 |
+| **Scalability**             | Scales by replicating whole app                        | Scales by scaling individual services                    |
+| **Technology Stack**        | Single stack for entire app                             | Different stacks for each service                        |
+| **Development**             | Centralized development and deployment                  | Decentralized development and deployment                 |
+| **Testing**                 | Testing involves whole app                             | Services tested independently                            |
+| **Maintenance**             | Updates affect entire app                               | Easier updates, changes localized to specific services   |
+| **Advantages**              | Simplicity, optimized performance                      | Agility, scalability, fault isolation                    |
+| **Disadvantages**           | Inflexible, slower scaling, tech limitations            | Complexity in management, increased overhead             |
+| **Use Cases**               | Small-medium apps, simpler needs                        | Large, complex apps needing flexibility and scalability |
+
+
 ![image](https://github.com/abhipraydhoble/devops-B-34/assets/122669982/7fcb6dc3-dfcd-4a00-9349-91b16869bd39)
+
 
 **1. Developement Team:** Responsible for writing code
 
