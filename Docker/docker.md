@@ -1,4 +1,4 @@
-#  $${\color{Blue} \textbf{Docker}}$$ 🐳
+#  $${\color{Light Blue} \textbf{Docker}}$$ 🐳
 
 ![image](https://github.com/abhipraydhoble/devops-B-34/assets/122669982/7fcb6dc3-dfcd-4a00-9349-91b16869bd39)
 
