@@ -20,11 +20,11 @@
 ![image](https://github.com/abhipraydhoble/devops-B-34/assets/122669982/7fcb6dc3-dfcd-4a00-9349-91b16869bd39)
 
 
-**1. Developement Team:** Responsible for writing code
+${\color{Green} \textbf{1. \ Developement \ Team:}}$ Responsible for writing code
 
-**2. Testing/QA Team:** Responsible for Testing code
+${\color{Orange} \textbf{2. \ Testing \ Team:}}$ Responsible for Testing code
 
-**3. DevOps/Operations Team:** Responsible for providing infrastructure setup
+${\color{Green} \textbf{3. \ Operations \ Team:}}$ Responsible for providing infrastructure setup
    
 - So all the code is stored or integrated inside github
 - We cant deliver code to client directly
