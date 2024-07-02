@@ -43,6 +43,8 @@ ${\color{lightblue}  \textbf{Docker}}$ is an open source platform for developing
   - resource efficiency
 
 
+
+
   ##  ${\color{lightblue} \textbf{On-Premises \ vs. \ Virtual Machines \ (VMs)}}$ 
 
 | Feature                    | On-Premises                                      | Virtual Machines (VMs)                          |
@@ -60,6 +62,7 @@ ${\color{lightblue}  \textbf{Docker}}$ is an open source platform for developing
 | **Updates**                | Manual updates required                         | Automated updates and patches provided by provider |
 | **Energy Efficiency**      | Organization responsible for energy consumption | Energy efficiency managed by provider           |
 | **Location Dependency**    | Must be managed on-site                         | Accessible from anywhere with internet access   |
+
 
 
 
@@ -88,6 +91,7 @@ ${\color{lightblue}  \textbf{Docker}}$ is an open source platform for developing
 
 
 
+
 ##  ${\color{lightblue} \textbf{docker \ architecture}}$ 
 
 
@@ -98,7 +102,10 @@ ${\color{lightblue}  \textbf{Docker}}$ is an open source platform for developing
 
 
 
+
+
 ##  ${\color{lightblue} \textbf{Installation-Steps  \ (Amazon-Linux)}}$ 
+
 
 ````
 sudo yum update -y
@@ -109,4 +116,12 @@ sudo usermod -a -G docker ec2-user
 ````
 docker --version
 ````
+
+
+
+##  ${\color{lightblue} \textbf{Basic \ Docker \ Commands}}$ 
+1. List Docker images:
+   ```
+   docker images
+   ```
 
