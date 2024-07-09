@@ -14,3 +14,7 @@
 [ec2-user@ip-172-31-37-118 ~]$ docker exec -it cont2 /bin/bash
 [ec2-user@ip-172-31-37-118 ~]$ ls app
 ````
+**attach local to file to container**
+````
+docker run -itd --name example1 -v ${PWD}/ec2:/var/demo ubuntu
+````
