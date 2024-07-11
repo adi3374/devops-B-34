@@ -1,4 +1,7 @@
-# Minikube Installation on AWS EC2
+# Kubernetes:
+https://www.linkedin.com/posts/abhipraydhoble_kubernetes-k8s-cloudcomputing-activity-7217124292373696515-iwUc?utm_source=share&utm_medium=member_desktop
+
+## Minikube Installation on AWS EC2
 
 ## Step 1: Create an AWS EC2 instance with Ubuntu 22
 Instance Size: t2.large with 2 CPUs, 32 GB Storage
