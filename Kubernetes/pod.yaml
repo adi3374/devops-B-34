@@ -9,3 +9,9 @@ metadata:
       image: nginx
       ports:
       - containerPort: 80
+
+
+# kubectl apply -f pod.yaml
+# kubectl get pod
+# kubectl describe pod <pod-name>
+# kubectl get pod -o wide
