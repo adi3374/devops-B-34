@@ -19,3 +19,11 @@ spec:
       image: nginx
       ports:
       - containerPort: 80
+
+
+# kubectl apply -f rc.yaml
+# kubectl get rc
+# kubectl get pod
+# kubectl delete pod <pod-name>
+# kubectl delete rc <rc-name>
+
