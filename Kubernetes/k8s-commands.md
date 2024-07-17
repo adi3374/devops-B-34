@@ -41,4 +41,4 @@ kubectl scale deployment demo-deploy --replicas=7
 - Rollback to Specific version
 ````
 kubectl rollout undo deployment demo-deploy --to-revision=6
-```
+````
