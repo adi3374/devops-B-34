@@ -89,5 +89,5 @@ kubectl get pods
 
 ````
 kubectl exec -it <pod1-name> -- /bin/sh
-curl http://<service-2-ipor-name>:80
+curl http://<service-2-ip-or-name>:80
 ````
