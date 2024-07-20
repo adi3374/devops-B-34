@@ -69,7 +69,7 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-  type: Cluste
+  type: ClusteIP
 ```
 
 ### apply deployment and service files
