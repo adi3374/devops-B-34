@@ -8,7 +8,7 @@
 1. EmptyDir
    
 ```yaml
-   apiVersion: v1
+apiVersion: v1
 kind: Pod
 metadata: 
  name: pod-1
