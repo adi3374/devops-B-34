@@ -6,7 +6,8 @@
 4. PersistanceVolumeClaim
 
 1. EmptyDir
-   ```yaml
+   
+```yaml
    apiVersion: v1
 kind: Pod
 metadata: 
@@ -24,4 +25,4 @@ spec:
   - name: ebs
     emptyDir:
       sizeLimit: 500Mi
-    ```
+```
