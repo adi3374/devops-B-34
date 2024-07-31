@@ -17,7 +17,7 @@ sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
 ````
 
-## Install kubectl
+**2:Install kubectl**
 Download the latest release with the command:
 ````
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
@@ -65,7 +65,11 @@ aws configure
 ````
 eksctl create cluster --name demo-ekscluster --region us-east-1 --version 1.27 --nodegroup-name linux-nodes --node-type t2.micro --nodes 2
 ````
-**5: Log In Into EKS cluster**
+**6: Log In Into EKS cluster**
 ````
 aws eks update-kubeconfig --name 34-ekscluster
+````
+**7: Delete EKS Cluster**
+````
+eksctl delete cluster --name 34-ekscluster --region ap-south-1
 ````
