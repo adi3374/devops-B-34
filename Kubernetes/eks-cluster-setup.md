@@ -1,4 +1,4 @@
-## Deploy-NodeJs-App-To-EKS-Using-Actions
+## Create EKS Cluster
 #### launch one instance t2.medium
 
 
