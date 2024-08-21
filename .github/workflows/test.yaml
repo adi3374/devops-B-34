@@ -1,0 +1,20 @@
+name: Pull and Run Docker Container
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  pull-and-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Pull the Docker image from the registry
+      - name: Pull Docker image
+        run: docker pull my-public-image:latest
+
+      # Step 2: Run the Docker container
+      - name: Run Docker container
+        run: |
+          docker run -d --name my-running-app -p 80:80 my-public-image:latest
