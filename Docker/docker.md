@@ -1,7 +1,7 @@
-#  $${\color{lightlightblue} \textbf{Docker 🐳}}$$
+#  $${\color{lightblue} \textbf{Docker 🐳}}$$
 
 
-##  ${\color{lightblue} \textbf{ Monolithic \ vs \ Microservises}}$
+##  ${\color{blue} \textbf{ Monolithic \ vs \ Microservises}}$
 
 | **Aspect**                  | **Monolithic Architecture**                             | **Microservices Architecture**                          |
 |-----------------------------|---------------------------------------------------------|----------------------------------------------------------|
@@ -70,8 +70,8 @@ ${\color{Red} \textbf{3. \ Operations \ Team:}}$ Responsible for providing infra
 - To avoid these kind of environmental issues we are using docker
 - Whatever the softwares we required is install using docker
   
-##  ${\color{lightblue} \textbf{ Que. \ What \ is \ Docker \?}}$
-${\color{lightblue}  \textbf{Docker}}$ 
+##  ${\color{blue} \textbf{ Que. \ What \ is \ Docker \?}}$
+${\color{blue}  \textbf{Docker}}$ 
 - is an open source platform for developing, shipping and running applications in containers.
 - containers are lightweight, isolated environments that package application and their dependencies together.
   
@@ -84,7 +84,7 @@ ${\color{lightblue}  \textbf{Docker}}$
 
 
 
-  ##  ${\color{lightblue} \textbf{On-Premises \ vs. \ Virtual Machines \ (VMs)}}$ 
+  ##  ${\color{blue} \textbf{On-Premises \ vs. \ Virtual Machines \ (VMs)}}$ 
 
 | Feature                    | On-Premises                                      | Virtual Machines (VMs)                          |
 |----------------------------|--------------------------------------------------|-------------------------------------------------|
@@ -107,7 +107,7 @@ ${\color{lightblue}  \textbf{Docker}}$
 
 
 
-##  ${\color{lightblue} \textbf{Virtual Machines (VMs) \ vs. \  Containers)}}$
+##  ${\color{blue} \textbf{Virtual Machines (VMs) \ vs. \  Containers)}}$
 
 | Feature                   | Virtual Machines (VMs)                               | Containers                                     |
 |---------------------------|------------------------------------------------------|------------------------------------------------|
@@ -131,7 +131,7 @@ ${\color{lightblue}  \textbf{Docker}}$
 
 
 
-##  ${\color{lightblue} \textbf{docker \ architecture}}$ 
+##  ${\color{blue} \textbf{docker \ architecture}}$ 
 
 
 
@@ -143,7 +143,7 @@ ${\color{lightblue}  \textbf{Docker}}$
 
 
 
-##  ${\color{lightblue} \textbf{Installation-Steps  \ (Amazon-Linux)}}$ 
+##  ${\color{blue} \textbf{Installation-Steps  \ (Amazon-Linux)}}$ 
 
 
 ````
@@ -159,7 +159,7 @@ docker --version
 
 
 
-##  ${\color{lightblue} \textbf{Basic \ Docker \ Commands}}$ 
+##  ${\color{blue} \textbf{Basic \ Docker \ Commands}}$ 
 1. List Docker images:
 ````
    docker images
